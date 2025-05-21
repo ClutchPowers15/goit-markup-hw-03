@@ -6,9 +6,29 @@ body {
 ul,
 ol {
   list-style-type: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
 }
 a {
   text-decoration: none;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.container {
+  width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
 }
 
 .logo {
@@ -47,6 +67,8 @@ nav span {
 }
 .hero {
   background: #2e2f42;
+  padding-top: 188px;
+  padding-bottom: 188px;
 }
 .hero-title {
   font-size: 56px;
@@ -54,6 +76,7 @@ nav span {
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
+  margin-bottom: 48px;
 }
 .hero-button {
   font-family: "Roboto", sans-serif;
@@ -71,6 +94,10 @@ nav span {
 .hero-button:focus {
   background-color: #404bbf;
 }
+.work {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
 .work-title {
   visibility: hidden;
 }
@@ -80,6 +107,7 @@ nav span {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 .work-item-text {
   font-size: 16px;
@@ -89,6 +117,8 @@ nav span {
 }
 .team {
   background: #f4f4fd;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 .team-title {
   font-size: 36px;
@@ -96,8 +126,9 @@ nav span {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
-  text-transform: capitalize
-}
+  text-transform: capitalize;
+  margin-bottom: 72px;
+} 
 .team-item {
   background: #fff;
 }
@@ -108,7 +139,7 @@ nav span {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
-  text-transform: capitalize
+  text-transform: capitalize;
 }
 .team-item-text {
   font-size: 16px;
@@ -117,6 +148,10 @@ nav span {
   text-align: center;
   color: #434455;
 }
+.portfolio {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
 .portfolio-title {
   font-weight: 500;
   font-size: 36px;
@@ -124,7 +159,8 @@ nav span {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
-  text-transform: capitalize
+  text-transform: capitalize;
+  margin-bottom: 72px;
 }
 .portfolio-item {
   background: #fff;
@@ -144,21 +180,25 @@ nav span {
 }
 .footer {
   background: #2e2f42;
+      padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .footer-logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.17;  
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
 }
 .footer-logo-part {
   color: #f4f4fd;
+
 }
 .footer-text {
+margin-top: 16px;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
