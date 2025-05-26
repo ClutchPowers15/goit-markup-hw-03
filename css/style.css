@@ -30,7 +30,16 @@ h6 {
   padding-right: 15px;
   margin: 0 auto;
 }
+.page-header {
 
+}
+.page-header .container {
+  display: flex;
+}
+.header-nav {
+  display: flex;
+align-items: center;
+}
 .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -39,6 +48,13 @@ h6 {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  margin-right: 76px;
+}
+.nav-list {
+display: flex;
+}
+.contacts-list {
+  display: flex;  
 }
 nav span {
   color: #2e2f42;
@@ -52,6 +68,7 @@ nav span {
 }
 .contacts {
   font-style: normal;
+  margin-left: auto;
 }
 .contacts-link {
   font-size: 16px;
@@ -77,6 +94,8 @@ nav span {
   text-align: center;
   color: #fff;
   margin-bottom: 48px;
+    max-width: 496px;
+margin: 0 auto;
 }
 .hero-button {
   font-family: "Roboto", sans-serif;
@@ -87,6 +106,10 @@ nav span {
   color: #fff;
   background: #4d5ae5;
   cursor: pointer;
+  border-radius: 4px;
+padding: 16px 32px;
+display: block;
+margin: 0 auto;
 }
 .hero-button:hover {
   background-color: #404bbf;
@@ -203,4 +226,6 @@ margin-top: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+  max-width: 264px;
+  margin-bottom: 0 auto;
 }
