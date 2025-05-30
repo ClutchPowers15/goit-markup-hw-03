@@ -31,14 +31,14 @@ h6 {
 }
 .container {
   width: 1158px;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding: 0 15px;
   margin: 0 auto;
 }
+
 .page-header {
-  /* border-bottom: 1px solid #e7e9fc;
-width: 1440px;
-height: 72px; */
+/* border-bottom: 1px solid #e7e9fc; */
+margin-top: 24px;
+margin-bottom: 24px;
 }
 .page-header .container {
   display: flex;
@@ -102,9 +102,9 @@ nav span {
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
-  margin-bottom: 48px;
   max-width: 496px;
   margin: 0 auto;
+    margin-bottom: 48px;
 }
 .hero-button {
   font-family: "Roboto", sans-serif;
@@ -136,6 +136,9 @@ height: 56px;
 .work-title {
   visibility: hidden;
 }
+.work-list {
+  display: flex;
+}
 .work-item-title {
   font-weight: 500;
   font-size: 20px;
@@ -154,6 +157,9 @@ height: 56px;
   background: #f4f4fd;
   padding-top: 120px;
   padding-bottom: 120px;
+}
+.team-list {
+  display: flex;
 }
 .team-title {
   font-size: 36px;
@@ -196,6 +202,9 @@ height: 56px;
   color: #2e2f42;
   text-transform: capitalize;
   margin-bottom: 72px;
+}
+.portfolio-list {
+  /* display: flex;  */
 }
 .portfolio-item {
   background: #fff;
