@@ -193,7 +193,7 @@ padding: 0px 0px 32px 0px;
 width: calc((100% - 72px) / 4);   
 }
 .team-img {
-  margin-bottom: 32px;
+padding-bottom: 32px;
 }
 .team-item-title {
   font-size: 20px;
@@ -211,7 +211,7 @@ width: calc((100% - 72px) / 4);
   letter-spacing: 0.02em;
   text-align: center;
   color: #434455;
-  margin-bottom: 32px;
+  /* margin-bottom: 32px; */
 }
 .portfolio {
   padding-top: 120px;
