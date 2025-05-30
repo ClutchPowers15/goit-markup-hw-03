@@ -40,10 +40,10 @@ margin-bottom: 24px;
 }
 .page-header .container {
   display: flex;
+  align-items: center
 }
 .header-nav {
   display: flex;
-
 }
 .logo {
   font-family: "Raleway", sans-serif;
