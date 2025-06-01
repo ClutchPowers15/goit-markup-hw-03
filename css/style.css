@@ -43,9 +43,7 @@ border-bottom: 1px solid #e7e9fc;
 }
 .header-nav {
   display: flex;
-  padding-top: 24px;
-  padding-bottom: 24px;
-  align-items: center
+  align-items: center;
 
 
 }
