@@ -43,9 +43,12 @@ border-bottom: 1px solid #e7e9fc;
 }
 .header-nav {
   display: flex;
-  align-items: center;
-
-
+    align-items: center;
+}
+    .header-nav a  {
+    display: inline-block;
+      padding-top: 24px;
+  padding-bottom: 24px;    
 }
 .logo {
   font-family: "Raleway", sans-serif;
